@@ -1,0 +1,107 @@
+.messageContainer {
+  height: 100%;
+  overflow: hidden;
+}
+
+.message-left {
+  position: relative;
+  clear: both;
+  float: left;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgb(44, 173, 72);
+  max-width: 80%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  font: 400 0.9em "Open Sans", sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: white;
+}
+
+.message-right {
+  position: relative;
+  clear: both;
+  float: right;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgb(44, 173, 72);
+  max-width: 80%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  font: 400 0.9em "Open Sans", sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: white;
+}
+.message-username {
+  font-weight: bold;
+  margin: 0;
+}
+
+.message-content {
+  padding: 0;
+  margin: 0;
+}
+
+.message-timestamp-right {
+  position: absolute;
+  font:italic;
+  font-size: 0.85em;
+  font-weight: 300;
+  bottom: 50px;
+  right: 5px;
+}
+
+.message-timestamp-left {
+  position: relative;
+  font-size: 0.8em;
+  float: right;
+}
+
+.message-left:after {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 15px solid rgb(44, 173, 72);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  top: 0;
+  left: -15px;
+}
+
+.message-left:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 17px solid #ffffff;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  top: -1px;
+  left: -17px;
+}
+
+.message-right:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 15px solid rgb(44, 173, 72);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 0;
+  right: -15px;
+}
+
+.message-right:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 17px solid #ffffff;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  bottom: -1px;
+  right: -17px;
+}

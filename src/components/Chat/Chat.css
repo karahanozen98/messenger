@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+.go-to-bottom {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+}
+.chat-message-input {
+  width: 100%;
+  height: 10vh;
+  display: inline-flex;
+  background-color: rgb(104, 141, 241);
+  bottom: 0;
+}
+.chat-message-input > input {
+  width: 80%;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.chat-send-button {
+  width: 20%;
+}
